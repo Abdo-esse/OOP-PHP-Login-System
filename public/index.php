@@ -1,3 +1,8 @@
+<?php 
+ require "../includes/signup.php"
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -60,7 +65,7 @@
         <div class="form-box">
             <h2>SIGN UP</h2>
             <p>Don't have an account yet? Sign up here!</p>
-            <form action="" method="post">
+            <form action="../includes/signup.php" method="post">
             <input type="text" name="uid" placeholder="Username">
             <input type="password" name="pwd" placeholder="Password">
             <input type="password" name="pwdrepeat" placeholder="Repeat Password">
